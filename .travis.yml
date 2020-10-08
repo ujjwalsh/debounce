@@ -6,6 +6,9 @@ go:
 os:
   - linux
   - osx
+arch:
+  - amd64
+  - ppc64le
 matrix:
   allow_failures:
     - go: tip
